@@ -30,7 +30,13 @@
 			title: 'Angular Reboot 3',
 			author: new AuthorModel({name: 'Steven Syntax'}),
 			isbn: "3311-000112-4545"
-		})
+		}),
+		new BookModel({
+			id: 6,
+			title: 'Web Component',
+			author: new AuthorModel({name: 'Luigi Bambini'}),
+			isbn: "3311-000112-4646"
+		})		
 	];
 
 	// Find all DOM elements which we want to render to
